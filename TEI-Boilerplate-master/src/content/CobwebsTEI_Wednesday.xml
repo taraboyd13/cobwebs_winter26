@@ -118,7 +118,7 @@
          </div>
       </front>
       <body>
-         <pb n="19" facs="xxx"/>
+         <pb n="19" facs="image/filename.jpg"/>
          <div type="dialogue">
             <head type="title" xml:id="TheCat"><hi rend="italic">The</hi><hi rend="caps">Cat</hi></head>
             <head type="sub" rend="italic">(In Words of Three Letters.)</head>
