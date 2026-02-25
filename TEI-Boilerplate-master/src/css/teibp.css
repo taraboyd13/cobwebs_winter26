@@ -1829,20 +1829,27 @@ zone {
 }
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
 html > body {
-  margin: 0;
+  margin: auto;
   padding: 0;
+  width: 60%;
+  padding: 2.5em;
+  font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
+  font-size: 14pt;
+   background-color: #EBEBEB;
+  color: #292929;
 }
+
 html {
   margin: 0;
   padding: 0;
-  margin-left: 2em;
+  /*margin-left: 2em;
   margin-right: 4em;
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 14pt;
   background-color: #EBEBEB;
   color: #292929;
-  width: 33em;
+  width: 33em;*/
 }
 img {
   border: 1px solid #AAA;
