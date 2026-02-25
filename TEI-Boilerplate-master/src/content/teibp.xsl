@@ -68,7 +68,7 @@
 	 <html>
 	   <xsl:call-template name="htmlHead"/>
 	   <body>
-	     <xsl:if test="$includeToolbox = false()">
+	     <xsl:if test="$includeToolbox = true()">
 	       <xsl:call-template name="teibpToolbox"/>
 	     </xsl:if>
 	     <div id="tei_wrapper">
