@@ -1,0 +1,2643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cobwebs to Catch Flies: or, Dialogues in Short Sentences, Adapted to Children from the Age of Three to Eight Years.</title>
+            <author>Lady Ellenor Fenn</author>
+            <editor>Tara Boyd</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>XXX</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>XXX
+            <bibl>
+               <title>Cobwebs to Catch Flies: or, Dialogues in Short Sentences, Adapted to Children from the Age of Three to Eight Years.</title>
+               <author>Lady Ellenor Fenn</author>
+               <publisher>John Marshall</publisher>
+               <pubPlace>No. 4, Aldermary Church-Yard, Bow-Lane, Cheapside, London</pubPlace>
+               <date>1794</date>
+               <idno type="digitalID">CHL0007</idno>
+            </bibl>
+            </p>
+          </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <normalization>
+               <p>XXX</p>
+            </normalization>
+            <correction>
+               <p>XXX</p>
+            </correction>
+            <quotation>
+               <p>XXX</p>
+            </quotation>
+            <correction>
+               <p>XXX</p>
+            </correction>
+            <interpretation>
+               <p>XXX</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:lang="en" rend="roman">
+      <front>
+         <div type="frontispiece">
+            <figure>
+               <graphic url="Frontispiece.jpg"></graphic>
+               <head rend="caps">The Doll.</head>
+            </figure>
+         </div>
+         <div type="editorial_intro">
+            <p>XXX</p>
+         </div>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main" rend="caps">Cobwebs to Catch Flies:</titlePart>
+               <titlePart type="sub" rend="caps">or, Dialogues in Short Sentences Adapted to Children from the Age of Three to Eight Years.</titlePart>
+            </docTitle>
+         </titlePage>
+         <div type="contents">
+            <list>
+               <item>
+                  <ref target="#TheCat">The Cat</ref>
+                  <num type="page">19</num>
+               </item>
+               <item>
+                  <ref target="#TheMorning">The Morning</ref>
+                  <num type="page">22</num>
+               </item>
+               <item>
+                  <ref target="#TheWindow">The Window</ref>
+                  <num type="page">25</num>
+               </item>
+               <item>
+                  <ref target="#TheRat">The Rat</ref>
+                  <num type="page">29</num>               
+               </item>
+               <item>
+                  <ref target="#TheDog">The Dog</ref>
+                  <num type="page">32</num>
+               </item>
+               <item>
+                  <ref target="#TheFarm-Yard">The Farm-Yard</ref>
+                  <num type="page">39</num>
+               </item>
+               <item>
+                  <ref target="#TheDoll">The Doll</ref>
+                  <num type="page">44</num>
+               </item>
+               <item>
+                  <ref target="#TheToilet">The Toilet</ref>
+                  <num type="page">49</num>
+               </item>
+               <item>
+                  <ref target="#TheFan">The Fan</ref>
+                  <num type="page">53</num>
+               </item>
+               <item>
+                  <ref target="#TheToy-Shop">The Toy-Shop</ref>
+                  <num type="page">58</num>
+               </item>
+               <item>
+                  <ref target="#TheWalk">The Walk</ref>
+                  <num type="page">64</num>
+               </item>
+               <item>
+                  <ref target="#TheBaby-House">The Baby-House</ref>
+                  <num type="page">68</num>
+               </item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <pb n="19" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheCat"><hi rend="italic">The</hi><hi rend="caps">Cat</hi></head>
+            <head type="sub" rend="italic">(In Words of Three Letters.)</head>
+            <div type="text">
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p><hi rend="caps">Our</hi> <ref target="#cat" type="definition">cat</ref> can get a <ref target="#rat" type="definition">rat</ref>: Can she not? </p>
+               </sp>
+               <pb n="20" facs="xxx"/>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Yes, she can; but she was bit by the old <ref target="#rat" type="definition">rat</ref> one day.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Ah! my <ref target="#n1" type="annotation">Kit</ref>! why did you try to get the old <ref target="#rat" type="definition">rat</ref>?</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>One day the <ref target="#dog" type="definition">dog</ref> bit our <ref target="#cat" type="definition">cat</ref>; he bit her <ref target="jaw" type="definition">jaw</ref>.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>May the <ref target="#cat" type="definition">cat</ref> get on my <ref target="#bed" type="definition">bed</ref>?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Yes, she may.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend ="caps">Boy</speaker>
+                  <p>May she lie by me?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Yes; go, get up; go to the boy.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p><ref target="#n1" type="annotation">Kit</ref>! <ref target="#n1" type="annotation">Kit</ref>! <ref target="#n1" type="annotation">Kit</ref>! you may get on the <ref target="#bed" type="definition">bed</ref>.</p>
+               </sp>
+               <pb n="21" facs="xxx"/>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Now you are up.
+                     Why do you say mew?
+                     Why do you say pur?
+                     You may lie by me, <ref target="#cat" type="definition">Cat</ref>.
+                     See her <ref target="#joy" type="definition">joy</ref> as I pat her <ref target="ear" type="definition">ear</ref>!
+                     Why do you get off the <ref target="#bed" type="definition">bed</ref>?
+                     Why do you beg to be let out?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>To go to her <ref target="#n1" type="annotation">kit</ref>.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Has she a <ref target="#n1" type="annotation">kit</ref>? Why do you go to the <ref target="#n1" type="annotation">kit</ref>? Is she to go?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Yes; let her go now.</p>
+               </sp>
+            </div>
+         </div>
+         <pb n="22" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheMorning"><hi rend="italic">The</hi><hi rend="caps">Morning</hi></head>
+            <head type="sub" rend="italic">(In Words of Three Letters.)</head>
+            <div type="text">
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p><hi rend="caps">Now</hi>get up; it is six.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>O, me! is it six?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Yes, it is; and the <ref target="#dew" type="definition">dew</ref> is off.</p>
+               </sp>
+               <pb n="23" facs="xxx"/>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I see the <ref target="#sun" type="definition">sun</ref>. It is fit for me to go out.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Now it is; but by ten it may be hot. So get up now.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>May I go to-day, and buy my <ref target="#n2" type="annotation">top</ref>?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Yes, you may.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>A <ref target="#n2" type="annotation">peg-top</ref>? Sam has a peg-top. He has let me get his. One day he did.
+                     I met Tom one day, and he had a top so big!
+                     I can <ref target="#hop" type="definition">hop</ref> as far as Tom can. 
+                     Tom has a <ref target="#bat" type="definition">bat</ref> too? and Tom is but of my age.
+                     <pb n="24" facs="xxx"/>
+                     Let us buy a <ref target="#cup" type="definition">cup</ref> and a <ref target="#mug" type="definition">mug</ref> for Bet.
+                     And let us get a <ref target="#gun" type="definition">gun</ref> for Sam. 
+                     And a <ref target="#pot" type="definition">pot</ref> and an <ref target="#urn" type="definition">urn</ref> for Bet. 
+                     An <ref target="#ant" type="definition">ant</ref> has bit my <ref target="#leg" type="definition">leg</ref>; see how <ref target="#red" type="definition">red</ref> it is!
+                     May I get a <ref target="#bag" type="definition">bag</ref> for Bet?
+                  </p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Can you <ref target="pay" type="definition">pay</ref> for it?</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>O, no; but you can <ref target="pay" type="definition">pay</ref> for all. 
+                     May the <ref target="#dog" type="definition">dog</ref> go?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Yes, he may go. </p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I see him: may I let him in?</p>
+               </sp>  
+            </div>
+         </div>
+         <pb n="25" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheWindow"><hi rend="italic">The</hi><hi rend="caps">Window</hi></head>
+            <head type="sub" rend="italic">(In Words of Three Letters.)</head>
+            <div type="text">
+               <sp who="#firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p>I See a man!
+                     The man has a <ref target="#dog" type="definition">dog</ref>.
+                     The man is got in. 
+                     The <ref target="#dog" type="definition">dog</ref> is not got in.
+                     He can not get in.</p>
+               </sp>
+               <pb n="26" facs="xxx"/>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Do not <ref target="#cry" type="definition">cry</ref>; you will see the manby-and-by. <ref target="#dog" type="definition">Dog</ref>! why do you cry?</p>
+               </sp>
+               <sp who="#secondboy">
+                  <speaker rend="caps">Secon Boy</speaker>
+                  <p>I can not see.</p>
+               </sp>
+               <sp who="#firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p>You are too low.--get up.</p>
+               </sp>
+               <sp who="#secondboy">
+                  <speaker rend="caps">Second Boy</speaker>
+                  <p>I can not get up.</p>
+               </sp>
+               <sp who="#firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p>Try;--now you are up.</p>
+               </sp>
+               <sp who="#secondboy">
+                  <speaker rend="caps">Second Boy</speaker>
+                  <p>I see the <ref target="#cow" type="definition">cow</ref>.</p>
+               </sp>
+               <sp who="#firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p>I see two.
+                     I see the <ref target="#red" type="definition">red</ref> <ref target="#cow" type="definition">cow</ref>; and I see the <ref target="#n3" type="annotation">dun</ref> <ref target="#cow" type="definition">cow</ref>.</p>
+               </sp>
+               <sp who="#secondboy">
+                  <speaker rend="caps">Second Boy</speaker>
+                  <p>I see a <ref target="#pig" type="definition">hog</ref>. <ref target="#pig" type="definition">Pig!</ref> <ref target="#pig" type="definition">Pig!</ref> why do you <ref target="#run" type="definition">run</ref>?</p>
+               </sp>
+               <pb n="27" facs="xxx"/>
+               <sp who="firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p>Now I see ten. Why do you all <ref target="#run" type="definition">run</ref>?
+                     Now let us go off.</p>
+               </sp>
+               <sp who="#secondboy">
+                  <speaker rend="caps">Second Boy</speaker>
+                  <p>You can not see me.</p>
+               </sp>
+               <sp who="#firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p>You are <ref target="hide" type="definition">hid</ref>.</p>
+               </sp>
+               <sp who="#secondboy">
+                  <speaker rend="caps">Second Boy</speaker>
+                  <p>I see you. Can you not see me?</p>
+               </sp>
+               <sp who="#firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p>O, now I can get up.</p>
+               </sp>
+               <sp who="#secondboy"> 
+                  <speaker rend="caps">Second Boy</speaker>
+                  <p>No, I can <ref target="#run" type="definition">run</ref>; you can not get me.</p>
+               </sp>
+               <sp who="#firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p>Yes, I can.</p>
+               </sp>
+               <sp who="#secondboy">
+                  <speaker rend="caps">Second Boy</speaker>
+                  <p>Let us go to Tom.</p>
+               </sp>
+               <sp who="#firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p>We may not go out.</p>
+               </sp>
+               <pb n="28" facs="xxx"/>
+               <sp who="#secondboy">
+                  <speaker rend="caps">Second Boy</speaker>
+                  <p>I can get out.</p>
+               </sp>
+               <sp who="#firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p>So can I; but do not go yet.</p>
+               </sp>
+               <sp who="#secondboy">
+                  <speaker rend="caps">Second Boy</speaker>
+                  <p>Why may not we go yet?</p>
+               </sp>
+               <sp who="#firstboy">
+                  <speaker rend="caps">First Boy</speaker>
+                  <p><ref target="#n4" type="annotation">Do as you are bid, and do not ask why, is the law for a boy.</ref></p>
+               </sp>
+            </div>
+         </div>     
+         <pb n="29" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheRat"><hi rend="italic">The</hi><hi rend="caps">Rat</hi></head>
+            <head type="sub" rend="italic">(In Words of Three Letters.)</head>
+            <div type="text">
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I Saw a <ref target="#rat" type="definition">rat</ref>; and I saw the <ref target="#dog" type="definition">dog</ref> try to get it.</p>                  
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>And did he get it?</p>                  
+               </sp>
+               <pb n="30" facs="xxx"/>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>No; but the <ref target="#cat" type="definition">cat</ref> did.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>My <ref target="#cat" type="definition">cat</ref>?</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>No; it was the <ref target="#old" type="definition">old</ref> <ref target="#cat" type="definition">cat</ref>.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>How did she get it? She can not <ref target="#run" type="definition">run</ref>.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>No, it is not the way:--she was <ref target="#hide" type="definition">hid</ref>--the <ref target="#rat" type="definition">rat</ref> <ref target="#run" type="definition">ran</ref> out; and pop! She got him.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>A <ref target="#dog" type="definition">dog</ref> can <ref target="#run" type="definition">run</ref>.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Yes; but a <ref target="cat">cat</ref> is sly.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>The kit can not get a <ref target="#rat" type="definition">rat</ref>.</p>
+               </sp>
+               <pb n="31" facs="xxx"/>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>No, she can not yet; but she can get a <ref target="#fly" type="definition">fly</ref>. I saw her get a <ref target="#fly" type="definition">fly</ref>.</p>
+               </sp>
+            </div>
+         </div>
+         <pb n="32" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheDog"><hi rend="italic">The</hi><hi rend="caps">Dog</hi></head>
+            <head type="sub" rend="italic">(In Words of Four Letters.)</head>
+            <div type="text">
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I Love the <ref target="#dog" type="definition">dog</ref>. 
+                     Do not you?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Yes, sure.</p>
+               </sp>
+               <pb n="33" facs="xxx"/>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Wag! do you love me?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>You see he does; he <ref target="#wag" type="definition">wags</ref> his <ref target="#tail" type="definition">tail</ref>. When he wags his tail, he says, I love you.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Does his <ref target="#tail" type="definition">tail</ref> tell me so?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Yes; it says, I love you; I love you; <ref target="#n5" type="annotation">pray</ref> love me.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>When we go out, he <ref target="#wag" type="definition">wags</ref> his <ref target="#tail" type="definition">tail</ref>: what does his <ref target="#tail" type="definition">tail</ref> say then?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Pray let me go; I wish to go with you.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I love to have him go with me.</p>
+               </sp>
+               <pb n="34" facs="xxx"/>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Here is a <ref target="#cake" type="definition">cake</ref> for you.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Nice <ref target="#cake" type="definition">cake</ref>! See the <ref target="#dog" type="definition">dog</ref>! how he <ref target="#wag" type="definition">wags</ref> his <ref target="#tail" type="definition">tail</ref> now! Why do you <ref target="#wag" type="definition">wags</ref> your <ref target="#tail" type="definition">tail</ref>? Why do you look so? Why does he <ref target="#wag" type="definition">wags</ref> his <ref target="#tail" type="definition">tail</ref> so much? Why does he look at me?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>To beg for some <ref target="#cake" type="definition">cake</ref>. His <ref target="#tail" type="definition">tail</ref> says I love you; you have a <ref target="#cake" type="definition">cake</ref>, and I have none; will you not be good to me? Will you not give some of your <ref target="#cake" type="definition">cake</ref> to your poor <ref target="#dog" type="definition">dog</ref>?</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Poor <ref target="#dog" type="definition">dog</ref>! do you want some <ref target="#cake" type="definition">cake</ref>? take a bit. Here! I hold it to him, but he does not take a<pb n="35" facs="xxx"/>bit.--take some. O! he has got it all--he was not to take all. <ref target="n5" type="annotation">Fie</ref>, Wag! to take all. Now I have none left. You are rude, Wag.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>He did stay some time.--Here, I will give you a <ref target="#plum" type="definition">plum</ref>-<ref target="#cake" type="definition">cake</ref>.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Now you are to have none, Wag. You are to have none of this cake; you were rude.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>He did not know that he was not to take all. He can not know all that you say.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Well, you may have a bit of this. I will take a bit off, and give it to him.</p>
+               </sp>
+               <pb n="36" facs="xxx"/>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Do so. You are a good boy. <ref target="n7" type="annotation">We must be kind to all. We must give to them who want.</ref></p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Why do you ask for more?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>He has not had a <ref target="#meal" type="definition">meal</ref> to-day.
+                     He had not a bit till now. 
+                     You had had <ref target="#food" type="definition">food</ref>.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I hope he will have <ref target="#meat" type="definition">meat</ref> at noon. I will ask <ref target="#cook" type="definition">cook</ref> to give him a <ref target="#bone" type="definition">bone</ref>; and he may have some <ref target="#milk" type="definition">milk</ref>; and he can have some <ref target="#bran" type="definition">bran</ref>. <ref target="#cook" type="definition">Cook</ref> will <ref target="#boil" type="definition">boil</ref> them for him. Poor <ref target="#dog" type="definition">dog</ref>! he can not ask as we can, so I will ask for him. Wag, I wish<pb n="37" facs="xxx"/>you could <ref target="#talk" type="definition">talk</ref>. Why does he <ref target="#bark" type="definition">bark</ref> at poor men?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>When he sees a man whom he does not know, then he says <q>Who are you?--who are you?--why do you come?--what do you do here?--I am at <ref target="#home" type="definition">home</ref>--I must tell the folk--I must tell that you are here--I will call our folk to look at you. Come out man; come out maid:--see who this is.--Bow, wow, wow, wow!</q></p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Does the <ref target="#dog" type="definition">dog</ref> say all that? Why does he stop, as soon as the folk come out?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>He is so wise as to know that<pb n="38" facs="xxx"/>he need <ref target="#bark" type="definition">bark</ref> no more then. If he mean to call them out, he will stop when they are come out.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Wag, why do you gape when you are hot? Can you tell me why he does so?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>To cool himself.</p>
+               </sp>
+            </div>
+         </div>
+         <pb n="39" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheFarm-Yard"><hi rend="italic">The</hi><hi rend="caps">Farm-Yard</hi></head>
+            <head type="sub" rend="italic">(In Words of Four Letters.)</head>
+            <div type="text">
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I Do not love <ref target="#pig" type="definition">pigs</ref>.</p>
+               </sp>
+               <sp who="#maid">
+                  <speaker rend="caps">Maid</speaker>
+                  <p>A <ref target="#pig" type="definition">pig</ref> is not so nice as a <ref target="#fowl" type="definition">fowl</ref>;<pb n="40" facs="xxx"/>yet we must feed the <ref target="#pig" type="definition">pigs</ref>. <ref target="#pig" type="definition">Pigs</ref> must eat as well as boys. Poor <ref target="#pig" type="definition">pigs</ref> want food.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Do they <ref target="#cry" type="definition">cry</ref> for <ref target="#food" type="definition">food</ref>? I hear them <ref target="#cry" type="definition">cry</ref>.</p>
+               </sp>
+               <sp who="#maid">
+                  <speaker rend="caps">Maid</speaker>
+                  <p>They <ref target="#cry" type="definition">cry</ref> to me for <ref target="#food" type="definition">food</ref>; in the way they can call, they call,--<q>Pray feed me; pray feed me! do, pray feed me now!</q></p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>What do you give them?</p>
+               </sp>
+               <sp who="#maid">
+                  <speaker rend="caps">Maid</speaker>
+                  <p>This <ref target="#pail" type="definition">pail</ref> full of <ref target="#milk" type="definition">milk</ref>. Will you not like to see them? They will be so glad!</p>
+               </sp>
+               <pb n="41" facs="xxx"/>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>How they <ref target="#jump" type="definition">jump</ref>! how they <ref target="#run" type="definition">run</ref> to the gate! Why do they <ref target="#run" type="definition">run</ref> so?</p>
+               </sp>
+               <sp who="#maid">
+                  <speaker rend="caps">Maid</speaker>
+                  <p>They are glad to see me. They know me. I feed them when they want <ref target="#food" type="definition">food</ref>; and you see they love me.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I like to see them so glad. I like to see a <ref target="#pig" type="definition">pig</ref> fed; but I love a <ref target="#lamb" type="definition">lamb</ref>; may I not love a <ref target="#lamb" type="definition">lamb</ref> more than I do a <ref target="#pig" type="definition">pig</ref>?</p>
+               </sp>
+               <sp who="#maid">
+                  <speaker rend="caps">Maid</speaker>
+                  <p><ref target="#n8" type="annotation">Yes; but you must be good to all.</ref></p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>My aunt has a tame <ref target="#lamb" type="definition">lamb</ref>;<pb n="42" facs="xxx"/>I love to give him <ref target="#milk" type="definition">milk</ref>; once I saw a <ref target="#fawn" type="definition">fawn</ref>. I do not mean in a <ref target="#park" type="definition">park</ref>, but I saw a tame <ref target="#fawn" type="definition">fawn</ref>; the old <ref target="#doe" type="definition">doe</ref> was dead, so we fed the <ref target="#fawn" type="definition">fawn</ref> at <ref target="#home" type="definitions">home</ref>. We kept him a long time, but he bit off the buds.</p>
+               </sp>
+               <sp who="#maid">
+                  <speaker rend="caps">Maid</speaker>
+                  <p>Have you seen a <ref target="#goat" type="definition">goat</ref>?</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Yes; he has not <ref target="#wool" type="definition">wool</ref>; he has <ref target="#hair" type="definition">hair</ref>.</p>
+               </sp>
+               <sp who="#maid">
+                  <speaker rend="caps">Maid</speaker>
+                  <p>Now you may go with me. We will go and feed the <ref target="#cow" type="definition">cows</ref>.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Why is one <ref target="#duck" type="definition">duck</ref> by itself?</p>
+               </sp>
+               <sp who="#maid">
+                  <speaker rend="caps">Maid</speaker>
+                  <p>The <ref target="#duck" type="definition">duck</ref> sits; she has a <ref target="#nest" type="definition">nest</ref><pb n="43" facs="xxx"/>just by. I must feed her: she will not go far from her <ref target="#nest" type="definition">nest</ref>. The rest can get <ref target="#food" type="definition">food</ref>. You may give her some <ref target="#corn" type="definition">corn</ref>; we will get some for her.
+                     Come.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I like to feed the poor <ref target="#duck" type="definition">duck</ref>.</p>
+               </sp>
+            </div>
+         </div>
+         <pb n="44" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheDoll"><hi rend="italic">The</hi><hi rend="caps">Doll</hi></head>
+            <head type="sub" rend="italic">(In Words of Four Letters.)</head>
+            <div type="text">
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p><hi rend="caps">What</hi> a nice <ref target="#doll" type="definition">doll</ref>! I like this; pray may I have this? I wish to have a wax <ref target="#doll" type="definition">doll</ref>.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>You must then take care to keep her cool, else you will melt her <ref target="#face" type="definition">face</ref>; and she must be kept dry, or this nice <ref target="#pink" type="definition">pink</ref> on her <ref target="#face" type="definition">face</ref> will be lost.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>What a neat <ref target="#coat" type="definition">coat</ref>! I like a <ref target="#blue" type="definition">blue</ref> <ref target="#silk" type="definition">silk</ref>. And her <ref target="#hat" type="definition">hat</ref>! I love a doll in a <ref target="#hat" type="definition">hat</ref>. What sort of a <ref target="#cap" type="definition">cap</ref> have you got, miss! but a poor one; but it is not much seen. She has some soil on the <ref target="#neck" type="definition">neck</ref>. I can rub it off I see. No, that will not do; I must not wet her skin. What sort of a <ref target="#foot" type="definition">foot</ref> have you? O! a nice one: and a neat <ref target="#silk" type="definition">silk</ref> <ref target="#shoe" type="definition">shoe</ref>: a <ref target="#blue" type="definition">blue</ref> <ref target="#knot" type="definition">knot</ref> too; well, that is what I like; to suit her <ref target="#coat" type="definition">coat</ref>. I am fond of <ref target="#blue" type="definition">blue</ref><pb n="46" facs="xxx"/>too. Now, miss if I have you <ref target="#home" type="definition">home</ref> with me, then I am to be your maid; to wait on you. Will not that be nice? I will take care of you, and keep you so neat! and I will work for you; you can not <ref target="#sew" type="definition">sew</ref>, nor hem; and I will read to you in my new <ref target="#book" type="definition">book</ref>; and I will take you out with me when you are good. You shall sit by me near the <ref target="#tree" type="definition">tree</ref>, on a low seat, fit for you. I wish you to <ref target="#walk" type="definition">walk</ref>? Can not I make you <ref target="#walk" type="definition">walk</ref>? so--step on--step on--see how my new <ref target="#doll" type="definition">doll</ref> can <ref target="#walk" type="definition">walk</ref>!</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>You will pull off her <ref target="#leg" type="definition">legs</ref>, my dear.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>Now if I had a <ref target="#pin" type="definition">pin</ref> to pin this<pb n="47" facs="xxx"/><ref target="#sash" type="definition">sash</ref> back. Stay, I can tie it. O me! see! here is a <ref target="#bag" type="definition">bag</ref> for her work! who has seen the like? a <ref target="#bag" type="definition">bag</ref> for her work! I must have this <ref target="#doll" type="definition">doll</ref>--if you like it, I mean.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p><ref target="#n9" type="annotation">You must then work for her.</ref> You will have much to do. To make and mend all that your <ref target="#doll" type="definition">doll</ref> will want to wear. Will not you wish her in the shop? I fear that you will; you who are so fond of play.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>Work for my <ref target="#doll" type="definition">doll</ref> will not tire me.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Take it then.</p>
+               </sp>
+               <pb n="48" facs="xxx"/>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>You are so good! pray let me <ref target="#hug" type="definition">hug</ref>hug you. I must kiss you too, my dear <ref target="#doll" type="definition">doll</ref> for joy.</p>
+               </sp>
+            </div>
+         </div>
+         <pb n="49" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheToilet"><hi rend="italic">The</hi><hi rend="caps">Toilet</hi></head>
+            <head type="sub" rend="italic">(In Words of Four Letters.)</head>
+            <div type="text">
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>I Like this <ref target="#cap" type="definition">cap</ref>; but it will not keep on. Why will it not keep on?</p>
+               </sp>
+               <sp who="#maid">
+                  <speaker rend="caps">Maid</speaker>
+                  <p>It is too big for you, miss.</p>
+               </sp>
+               <pb n="50" facs="xxx"/>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>It is off; it will fall off.</p>
+               </sp>
+               <sp who="#maid">
+                  <speaker rend="caps">Maid</speaker>
+                  <p>You had best lay it down, miss.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>I like to have it; I will put it on.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p><ref target="#n10" type="#annotation">My dear! lay it down when you are bid to do so; do not wait to be made to do well.</ref></p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>I will not, mamma. Smith, I will be good. Pray may I look in this <ref target="#box" type="definition">box</ref>?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>You see it is shut now; you may see it by-and-by.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>I will not hurt the <ref target="#lock" type="definition">lock</ref>.</p>
+               </sp>
+               <pb n="51" facs="xxx"/>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>You must not try.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>May I play with your <ref target="#n11" type="annotation">muff</ref>?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>You may.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>What is this made of?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p><ref target="#fur" type="#fur">Fur</ref>; and <ref target="#fur" type="#fur">fur</ref> is skin with the <ref target="#hair" type="definition">hair</ref> on.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>It is like <ref target="#n12" type="annotation">puss</ref>; how soft it is!--How warm it is when I hold it to my <ref target="#nose" type="definition">nose</ref>! it is like <ref target="#wool" type="definition">wool</ref>.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Now come and kiss me; I am sure you will be good to John; go and play with him.</p>
+               </sp>
+               <pb n="52" facs="xxx"/>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>Do you stay all day? do you stay till John is in <ref target="#bed" type="definition">bed</ref>?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Yes; till you are both in <ref target="#bed" type="definition">bed</ref>. Now go.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>Pray let me get my <ref target="#n13" type="annotation">work-bag</ref> first. May I get my <ref target="#n13" type="annotation">work-bag</ref>?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Why do you want it?</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>I want some <ref target="#silk" type="definition">silk</ref> out of it; that I may work a <ref target="#ball" type="definition">ball</ref> for John.</p>
+               </sp>
+            </div>
+         </div>
+         <pb n="53" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheFan"><hi rend="italic">The</hi><hi rend="caps">Fan</hi></head>
+            <head type="sub" rend="italic">(In Words of Four Letters.)</head>
+            <div type="text">
+               <sp who="#lady">
+                  <speaker rend="caps">Lady</speaker>
+                  <p><hi rend="caps">What</hi> does he want?
+                     What does that mean?</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>It is his way to say pray.</p>
+               </sp>
+               <pb n="54" facs="xxx"/>
+               <sp who="#lady">
+                  <speaker rend="caps">Lady</speaker>
+                  <p>And what does he <ref target="#wish" type="definition">wish</ref>?</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>To have your <ref target="#fan" type="definition">fan</ref>:
+                     But he will <ref target="#tear" type="definition">tear</ref> it.</p>
+               </sp>
+               <sp who="#lady">
+                  <speaker rend="caps">Lady</speaker>
+                  <p>Can you take care of it?</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>O! yes; I can show it to him.</p>
+               </sp>
+               <sp who="#lady">
+                  <speaker rend="caps">Lady</speaker>
+                  <p>Take it; and let him see it.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>Now sit by me.
+                     Pray set him down by me.
+                     Look! no; you must not have it.
+                     I must keep it in my <ref target="#hand" type="definition">hand</ref>. 
+                     You can not hold it.<pb n="55" facs="xxx"/>
+                     Here is a boy. See! he runs to get that <ref target="#bird" type="definition">bird</ref>. O fie! do not get the <ref target="#bird" type="definition">bird</ref>. No! you must not put the <ref target="#bird" type="definition">bird</ref> in a <ref target="#cage" type="definition">cage</ref>cage. Let the bird <ref target="#fly" type="definition">fly</ref>fly; let him <ref target="#sing" type="definition">sing</ref>; and let him help to make a <ref target="#nest" type="definition">nest</ref>. 
+                     Do not hurt the poor bird.
+                     You must be good and kind.
+                     You must not vex the bird.
+                     Here is a girl. Look at her <ref target="#pink" type="definition">pink</ref> coat. Here is her <ref target="#foot" type="definition">foot</ref>. She has a <ref target="#blue" type="definition">blue</ref>blue <ref target="#shoe" type="definition">shoe</ref>. She is at play with the boy.
+                     <ref target="#n14" type="annotation">Miss! you must be good. You must tell the boy to be good; that we may love him. All good folk will love him if he be good; not else.</ref><pb n="56" facs="xxx"/>
+                     Now let us turn the <ref target="#fan" type="definition">fan</ref>. Now we will look at this side. Here is a nice <ref target="#pink" type="definition">pink</ref>. 
+                     This is a <ref target="#rose" type="definition">rose</ref>. That is a <ref target="#fly" type="definition">fly</ref>.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Now John will <ref target="#walk" type="definition">walk</ref>. Ring the <ref target="#bell" type="definition">bell</ref>. Go and walk with your maid.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>Am I to go?</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>As you like.</p>
+               </sp>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>I like best to stay; but John says with his <ref target="#hand" type="definition">hand</ref>, <q>pray go.</q> I will go then! dear boy! I will go with you.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Good girl!</p>
+               </sp>
+               <pb n="57" facs="xxx"/>
+               <sp who="#girl">
+                  <speaker rend="caps">Girl</speaker>
+                  <p>John! you must love me; I <ref target="#wish" type="definition">wish</ref> to stay here, and you hear that I may stay.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>Take hold of him and lead him out. You will meet the maid at the <ref target="#door" type="definition">door</ref>.</p>
+               </sp>
+            </div>
+         </div>
+         <pb n="58" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheToy-Shop"><hi rend="italic">The</hi><hi rend="caps">Toy-Shop</hi></head>
+            <head type="sub" rend="italic">(In Words of Five Letters.)</head>
+            <div type="text">
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I Will have a <ref target="#gun" type="definition">gun</ref>. No, I will have this <ref target="#dog" type="definition">doh</ref>. May I not have both?</p>
+               </sp>
+               <pb n="59" facs="xxx"/>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>You may have both.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>Let me see, here is a <ref target="#goat" type="definition">goat</ref>. Do look at his <ref target="#face" type="definition">face</ref>; how like it is to a <ref target="#goat" type="definition">goat</ref>! Here is a <ref target="#ball" type="definition">ball</ref>; and a <ref target="#lamb" type="definition">lamb</ref> with <ref target="#wool" type="definition">wool</ref> on it, just like my <ref target="#lamb" type="definition">lamb</ref> that I feed at <ref target="#home" type="definition">home</ref>. And here is a <ref target="#rooster" type="definition">cock</ref>; can you crow? Crow, and tell us that it is time to rise. Can you not? What a <ref target="#tail" type="definition">tail</ref> he has! A fine <ref target="#tail" type="definition">tail</ref>! No, I will not have that, for his <ref target="#tail" type="definition">tail</ref> will soon be off. Some part of it is come off now.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>You must not pull. You do harm.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I did not pull hard.</p>
+               </sp>
+               <pb n="60" facs="xxx"/>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>You are a long time.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>O, here is a <ref target="#horse" type="definition">horse</ref>! I like this <ref target="#horse" type="definition">horse</ref>. I like his long <ref target="#tail" type="definition">tail</ref>. You shall not have your <ref target="#tail" type="definition">tail</ref> cut--no, nor your <ref target="#ear" type="definition">ears</ref>: but you can not feel. Come, Sir, <ref target="#walk" type="definition">walk</ref>, and trot. Do you move well? I will rub you down, and give you <ref target="#oats" type="definition">oats</ref>oats and <ref target="#hay" type="definition">hay</ref>, and chop <ref target="#straw" type="definition">straw</ref> for you. I will be good to you, not whip you much,--no more than just to say,--<q>Now go on;</q>--nor spur you, nor gall your poor skin; no, nor let the <ref target="#hair" type="definition">hair</ref> rub off. So--you set your <ref target="#tail" type="definition">tail</ref> well; but if you did not, Tom must not nick you; no, nor yet dock your poor <ref target="#tail" type="definition">tail</ref>; you will<pb n="61" facs="xxx"/>want it to keep the <ref target="#fly" type="definition">flies</ref> from you when it is hot. I see poor Crop toss his <ref target="#head" type="definition">head</ref> all day; he does it it to keep the <ref target="#fly" type="definition">flies</ref> from him; but it is all in vain, he can not keep them off. I will be good to you; I will tend and feed you; and I will not ride too hard, and hurt your <ref target="#foot" type="definition">feet</ref>; nor trot on hard <ref target="#road" type="definition">road</ref>, so as to make you fall and cut your <ref target="knee" type="definition">knees</ref>; but I will pat your <ref target="#neck" type="definition">neck</ref> when I get up, and I will make you know me; so that you will turn your <ref target="#head" type="definition">head</ref>, and seem to like to have me get on your <ref target="#back" type="definition">back</ref>. At <ref target="#night" type="definition">night</ref> you must have a warm <ref target="#bed" type="definition">bed</ref>. When I have rode you in the <ref target="#day" type="definition">day</ref>, I will see that you have good <ref target="#corn" type="definition">corn</ref>, and <ref target="#hay" type="definition">hay</ref>hay, and <ref target="#straw" type="definition">straw</ref>; and Tom must wash the hot <ref target="#sand" type="definition">sand</ref> out of<pb n="62" facs="xxx"/>your poor <ref target="foot" type="definition">feet</ref>, so that they may not ache, and make you grow lame.</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p>I can not but give you the <ref target="#horse" type="definition">horse</ref>, as you seem to plan so well for him; I hope you will be good and kind to all things.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I do not care now for the <ref target="#lamb" type="definition">lamb</ref>, nor for the--</p>
+               </sp>
+               <sp who="#mamma">
+                  <speaker rend="caps">Mamma</speaker>
+                  <p><ref target="#n15" type="annotation">My dear, I would have you know your own <ref target="#mind" type="definition">mind</ref>; if you get the trick to like now this, now that, and now you know not what, it will do you harm all your life.--So it is that boys and men spend too much; so it is that they act like fools.</ref> I would give you<pb n="63" facs="xxx"/>all the <ref target="#toy" type="definition">toys</ref> in the shop, if it were for your good to have them: the <ref target="#horse" type="definition">horse</ref> you have got; now take some one else; take the <ref target="#gun" type="definition">gun</ref>, do you like the <ref target="#gun" type="definition">gun</ref>?</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I do; I thank you, mamma. I will keep the <ref target="#horse" type="definition">horse</ref>; and I will give the <ref target="#gun" type="definition">gun</ref> to Jack. O! my dear <ref target="#horse" type="definition">horse</ref>, how I love you!</p>
+               </sp>            
+            </div>
+         </div>
+         <pb n="64" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheWalk"><hi rend="italic">The</hi><hi rend="caps">Walk</hi></head>
+            <head type="sub" rend="italic">(In Words of Six Letters.)</head>
+            <div type="text">
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p><hi rend="caps">There</hi> is a <ref target="#field" type="definition">field</ref> full of nettles.</p>
+               </sp>
+               <sp who="#papa">
+                  <speaker rend="caps">Papa</speaker>
+                  <p>No, not so, it is hemp.</p>
+               </sp>
+               <pb n="65" facs="xxx"/>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>What is that for, papa?</p>
+               </sp>
+               <sp who="#papa">
+                  <speaker rend="caps">Papa</speaker>
+                  <p>To make <ref target="#cloth" type="definition">cloth</ref> of; the <ref target="#stalk" type="definition">stalk</ref> has a tough peel on it, and that peel is what they make <ref target="#thread" type="definition">thread</ref> of. The <ref target="#thread" type="definition">thread</ref> they weave, and make strong <ref target="#cloth" type="definition">cloth</ref>.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I want to know all the <ref target="#tree" type="definition">trees</ref>; pray what <ref target="#leaf">leaf</ref> is this?</p>
+               </sp>
+               <sp who="#papa">
+                  <speaker rend="caps">Papa</speaker>
+                  <p>That is an Oak; that <ref target="#bush" type="definition">bush</ref> is May; we call it too White-Thorn; it blooms late in May; its <ref target="#fruit" type="definition">fruit</ref> are called Haws; so we call it Haw-Thorn. The <ref target="#bird" type="definition">birds</ref> eat the <ref target="#fruit" type="definition">fruit</ref>.
+                     That is Black-Thorn; that blooms soon in the <ref target="#spring" type="definition">spring</ref>; it has a <ref target="#white" type="definition">white</ref> bloom, and has then few or no <ref target="#leaf" type="definition">leaves</ref>. The<pb n="66" facs="xxx"/><ref target="#fruit" type="definition">fruit</ref> is a sloe. They are like a small <ref target="#blue" type="definition">blue</ref> <ref target="#plum" type="definition">plum</ref>; but so sour that you can not eat them.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>What is this?</p>
+               </sp>
+               <sp who="#papa">
+                  <speaker rend="caps">Papa</speaker>
+                  <p>Wild Rose; its <ref target="#fruit" type="definition">fruit</ref> are Hips; they are kept, and we take them for coughs. That is broom; it has a bloom like a <ref target="#pea" type="definition">pea</ref> in shape, but it is <ref target="#yellow" type="definition">yellow</ref>.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>There is a bunch of it in bloom.</p>
+               </sp>
+               <sp who="#papa">
+                  <speaker rend="caps">Papa</speaker>
+                  <p>No; that is Furze, such as you see on heaths. Feel this; Broom does not prick like this.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I will keep a <ref target="#leaf" type="definition">leaf</ref> of each to show to James.</p>
+               </sp>
+               <pb n="67" facs="xxx"/>
+               <sp who="#papa">
+                  <speaker rend="caps">Papa</speaker>
+                  <p>You may put them in a <ref target="#book" type="definition">book</ref>, and <ref target="#write" type="definition">write</ref> what I have told you.</p>
+               </sp>
+               <sp who="#boy">
+                  <speaker rend="caps">Boy</speaker>
+                  <p>I will get all sorts of <ref target="#plant" type="definition">plants</ref>; and I will mark by each the name, the place, the bloom, the time when it blows, and the use which is made of it.</p>
+               </sp>
+            </div>
+         </div>
+         <pb n="68" facs="xxx"/>
+         <div type="dialogue">
+            <head type="title" xml:id="TheBaby-House"><hi rend="italic">The</hi><hi rend="caps">Baby-House</hi></head>
+            <head type="sub" rend="italic">(In Words of Six Letters.)</head>
+            <div type="text">
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p><hi rend="caps">My</hi> <ref target="#doll" type="definition">doll's</ref> <ref target="#quilt" type="definition">quilt</ref> is <ref target="#n16" type="annotation">chintz</ref>. What is this?</p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>Old point.</p>
+               </sp>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p>Let us take the <ref target="#doll" type="definition">Doll</ref> up.</p>
+               </sp>
+               <pb n="69" facs="xxx"/>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>With all my <ref target="#heart" type="definition">heart</ref>.</p>
+               </sp>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p>Where are her <ref target="#clothes" type="definition">clothes</ref>?</p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>Here they are; some in this <ref target="#chest" type="definition">chest</ref>, and some hang in the <ref target="#n17" type="annotation">press</ref>!</p>
+               </sp>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p>Bless me! what a nice press! I have a <ref target="#chest" type="definition">chest</ref> at home, in my <ref target="#doll" type="definition">doll's</ref> <ref target="#home" type="definition">house</ref>; but I have no <ref target="#n17" type="annotation">press</ref>.</p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>Here are her <ref target="#n18" type="annotation">shift</ref>shift and <ref target="#coat" type="definition">coat</ref>; those <ref target="#shoe" type="definition">shoes</ref> are her best, do not put them on; take these.</p>
+               </sp>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p>What <ref target="#dress" type="definition">gown</ref> does she put on?</p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>Her <ref target="#white" type="definition">white</ref> one. I will take it out, whilst you <ref target="#n19" type="annotation">lace her stays.</ref></p>
+               </sp>
+               <pb n="70" facs="xxx"/>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p>What is her best <ref target="#cloak" type="definition">cloack</ref>cloak?</p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p><ref target="#white" type="definition">White</ref>; with a neat blond lace round it.</p>
+               </sp>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p>Mine has a <ref target="#n11" type="annotation">muff</ref>; has your <ref target="#doll" type="definition">doll</ref> a <ref target="#n11" type="annotation">muff</ref>?</p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>No, she has not; my aunt says she will teach me to do chain stitch; and then I am to work on one.</p>
+               </sp>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p>What is her best <ref target="#dress" type="definition">dress</ref>?</p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>You shall see them all? there is the <ref target="#dress" type="definition">gown</ref> which I like best.</p>
+               </sp>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p>Why do you like it best?</p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>It is my dear mamma's work; see<pb n="71" facs="xxx"/>how neat it is; and there is a <ref target="#green" type="definition">green</ref> <ref target="#silk" type="definition">silk</ref>.</p>
+               </sp>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p>My <ref target="#doll" type="definition">doll's</ref> best <ref target="#coat">coat</ref> is <ref target="#brown" type="definition">brown</ref>, with a stripe of <ref target="#blue" type="definition">blue</ref>; and she has a <ref target="#white">white</ref>, wrought with a moss <ref target="#rose" type="definition">rose</ref>, a <ref target="#pink" type="definition">pink</ref>, and a large bunch of <ref target="#leaf" type="definition">leaves</ref>: that was her best, but it is just worn out now; she must leave it off soon.</p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>What does she wear it so long?</p>
+               </sp>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p>I had a <ref target="#n19" type="annotation">crown</ref> to buy her a piece of <ref target="#silk" type="definition">silk</ref>; as I went in the <ref target="#coach" type="definition">coach</ref> with my aunt to buy it, we met a poor child who had no <ref target="#clothes" type="definition">clothes</ref>, but the worst <ref target="#rags" type="definition">rags</ref> which you can think.</p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>And you gave it to her.<pb n="72" facs="xxx"/>My doll should wear her old <ref target="#dress" type="definition">gown</ref> for a long time, for the sake of such use to put my <ref target="#n20" type="annotation">crown</ref>.</p>
+               </sp>
+               <sp who="#firstgirl">
+                  <speaker rend="caps">First Girl</speaker>
+                  <p><ref target="#n21" type="annotation">I had more joy in that, than I could have had in my <ref target="#doll" type="definition">doll's</ref> new <ref target="#dress" type="definition">gown</ref>gown. <ref target="#doll" type="definition">Dolls</ref> can not feel the want of <ref target="#clothes" type="definition">clothes</ref>.</ref></p>
+               </sp>
+               <sp who="#secondgirl">
+                  <speaker rend="caps">Second Girl</speaker>
+                  <p>Now let us go down <ref target="#stairs" type="definition">stairs</ref>. </p>
+               </sp>
+           </div>
+         </div>
+        </body>
+      
+      <back>
+         <div type="glossary">
+            <head rend="caps">Illustrated Glossary</head>
+            <entry type="vocabularyWord" xml:id="cat">
+               <form>
+                  <orth>Cat</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="Cobwebs/Illustrations/cat_Image.jpg"></graphic>
+                     <figDesc>An orange cat sitting down.</figDesc>
+                  </figure>
+                  <def>A cat is a furry animal that has a long tail and sharp claws. Cats are often kept as pets.
+                     <ptr type="bibliography" target="#catDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="rat">
+               <form>
+                  <orth>Rat</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="Cobwebs/Illustrations/rat_Image.png"></graphic>
+                     <figDesc>A gray rat standing on all-fours.</figDesc>
+                  </figure>
+                  <def>A rat is an animal which has a long tail and looks like a large mouse.
+                     <ptr type="bibliography" target="ratDefinition"/></def>
+               </sense>
+           </entry>
+           <entry type="vocabularyWord" xml:id="dog">
+               <form>
+                  <orth>Dog</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="XXX"></graphic>
+                     <figDesc>XXX</figDesc>
+                  </figure>
+                  <def>A dog is a very common four-legged animal that is often kept by people as a pet or to guard or hunt. There are many different breeds of dog.
+                     <ptr type="bibliography" target="dogDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="bed">
+               <form>
+                  <orth>Bed</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A bed is a piece of furniture that you lie on when you sleep.
+                     <ptr type="bibliography" target="bedDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="jaw">
+               <form>
+                  <orth>Jaw</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Your jaw is the lower part of your face below your mouth. The movement of your jaw is sometimes considered to express a particular emotion.
+                     <ptr type="bibliography" target="jawDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="joy">
+               <form>
+                  <orth>Joy</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Joy is a feeling of great happiness.
+                     <ptr type="bibliography" target="joyDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="ear">
+               <form>
+                  <orth>Ear</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Your ears are the two parts of your body, one on each side of your head, with which you hear sounds.
+                     <ptr type="bibliography" target="earDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="dew">
+               <form>
+                  <orth>Dew</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Dew is small drops of water that form on the ground and other surfaces outdoors during the night.
+                     <ptr type="bibliography" target="dewDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="sun">
+               <form>
+                  <orth>Sun</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>The sun is the ball of fire in the sky that the Earth goes around, and that gives us heat and light.
+                     <ptr type="bibliography" target="sunDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="hop">
+               <form>
+                  <orth>Hop</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>If you hop, you move along by jumping on one foot.
+                     <ptr type="bibliography" target="hopDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="bat">
+               <form>
+                  <orth>Bat</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A bat is a specially shaped piece of wood that is used for hitting the ball in baseball, softball, or cricket.
+                     <ptr type="bibliography" target="batDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="cup">
+               <form>
+                  <orth>Cup</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A cup is a small, round container that you drink from.
+                     <ptr type="bibliography" target="XXX"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="mug">
+               <form>
+                  <orth>Mug</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A mug is a large, deep cup with straight sides and a handle, used for hot drinks.
+                     <ptr type="bibliography" target="XXX"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="gun">
+               <form>
+                  <orth>Gun</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A gun is a weapon from which bullets or other things are fired.
+                     <ptr type="bibliography" target="XXX"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="pot">
+               <form>
+                  <orth>Pot</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A pot is a deep round container, often used for cooking stews, soups, and other food.
+                     <ptr type="bibliography" target="potDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="urn">
+               <form>
+                  <orth>Urn</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>a vessel that is typically an ornamental vase on a pedestal and that is used for various purposes, such as preserving  ashes after cremation.
+                     <ptr type="bibliography" target="#Merriam-WebsterDictionary"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="ant">
+               <form>
+                  <orth>Ant</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Ants are small crawling insects that live in large groups.
+                     <ptr type="bibliography" target="antDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="leg">
+               <form>
+                  <orth>Leg</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A person or animal's legs are the long parts of their body that they use to stand on.
+                     <ptr type="bibliography" target="legDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="bag">
+               <form>
+                  <orth>Bag</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A bag is a strong container with one or two handles, used to carry things in.
+                     <ptr type="bibliography" target="bagDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="red">
+               <form>
+                  <orth>Red</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Something that is red is the color of blood, fire, or roses.
+                     <ptr type="bibliography" target="redDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="pay">
+               <form>
+                  <orth>Pay</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>When you pay an amount of money to someone, you give it to them because you are buying something from them or because you owe it to them. 
+                     <ptr type="bibliography" target="payDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="cry">
+               <form>
+                  <orth>Cry</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>When you cry, tears come from your eyes, usually because you are unhappy or hurt.
+                     <ptr type="bibliography" target="cryDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="cow">
+               <form>
+                  <orth>Cow</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A cow is a large animal, often black and white, that is kept on farms for its milk.
+                     <ptr type="bibliography" target="cowDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="pig">
+               <form>
+                  <orth>Pig</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A pig is a pink or black animal with short legs and a curly tail. Pigs are often kept on farms for their meat, which is called pork, ham, or bacon.
+                     <ptr type="bibliography" target="pigDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="hide">
+               <form>
+                  <orth>Hide</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>If you hide or if you hide yourself, you go somewhere where you cannot easily be seen or found.
+                     <ptr type="bibliography" target="hideDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="run">
+               <form>
+                  <orth>Run</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>When you run, you move more quickly than when you walk, for example because you are in a hurry to get somewhere, or for exercise.
+                     <ptr type="bibliography" target="runDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="old">
+               <form>
+                  <orth>Old</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Something that is old has existed for a long time and is no longer young.
+                     <ptr type="bibliography" target="oldDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="fly">
+               <form>
+                  <orth>Fly</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A fly is a small insect with two wings. There are many kinds of flies, and the most common are black in color.
+                     <ptr type="bibliography" target="flyDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="wag">
+               <form>
+                  <orth>Wag</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>When a dog wags its tail, it repeatedly waves its tail from side to side.
+                     <ptr type="bibliography" target="wagDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="tail">
+               <form>
+                  <orth>Tail</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>The tail of an animal, bird, or fish is the part extending beyond the end of its body.
+                     <ptr type="bibliography" target="tailDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="cake">
+               <form>
+                  <orth>Cake</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A cake is a sweet food made by baking a mixture of flour, eggs, sugar, in an oven. Cakes are often served for birthdays.
+                     <ptr type="bibliography" target="cakeDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="plum">
+               <form>
+                  <orth>Plum</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A plum is a small, sweet fruit with a smooth purple, red, or yellow skin and a pit in the middle.
+                     <ptr type="bibliography" target="plumDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="meal">
+               <form>
+                  <orth>Meal</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A meal is serving of food you have when people sit down and eat, usually at a regular time.
+                     <ptr type="bibliography" target="mealDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="food">
+               <form>
+                  <orth>Food</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Food is what people and animals eat.
+                     <ptr type="bibliography" target="foodDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="meat">
+               <form>
+                  <orth>Meat</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Meat is solid food taken from an animal that people cook and eat.
+                     <ptr type="bibliography" target="meatDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="milk">
+               <form>
+                  <orth>Milk</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Milk is the white liquid produced by cows, goats, and some other animals, which people drink and use to make butter, cheese, and yogurt.
+                     <ptr type="bibliography" target="milkDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="bran">
+               <form>
+                  <orth>Bran</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Bran is the outer skin of grain that is left when the grain has been used to make flour.
+                     <ptr type="bibliography" target="branDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="boil">
+               <form>
+                  <orth>Boil</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>When you boil food, or when it boils, it is cooked in boiling water.
+                     <ptr type="bibliography" target="boilDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="talk">
+               <form>
+                  <orth>Talk</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>When you talk, you use spoken language to express your thoughts, ideas, or feelings.
+                     <ptr type="bibliography" target="talkDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="home">
+               <form>
+                  <orth>Home</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Someone's home is the house,apartment, or place where they live.
+                     <ptr type="bibliography" target="homeDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="bark">
+               <form>
+                  <orth>Bark</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>When a dog barks, it makes a short, loud noise, once or several times.
+                      <ptr type="bibliography" target="barkDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="fowl">
+               <form>
+                  <orth>Fowl</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A fowl is a bird, especially one that can be eaten as food, such as a duck or a chicken.
+                     <ptr type="bibliography" target="fowlDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="pail">
+               <form>
+                  <orth>Pail</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A pail is a bucket, usually made of metal or wood.
+                     <ptr type="bibliography" target="pailDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="jump">
+               <form>
+                  <orth>Jump</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>If you jump, you bend your knees, push against the ground with your feet, and spring quickly upward into the air.
+                     <ptr type="bibliography" target="jumpDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="lamb">
+               <form>
+                  <orth>Lamb</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A lamb is a young sheep.
+                     <ptr type="bibliography" target="lambDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="fawn">
+               <form>
+                  <orth>Fawn</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A fawn is a very young deer.
+                     <ptr type="bibliography" target="fawnDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="park">
+               <form>
+                  <orth>Park</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A park is a public area of land with grass and trees, usually in a town, where people go in order to relax, play, and enjoy themselves.
+                     <ptr type="bibliography" target="parkDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="doe">
+               <form>
+                  <orth>Doe</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A doe is an adult female deer.
+                     <ptr type="bibliography" target="doeDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="goat">
+               <form>
+                  <orth>Goat</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A goat is a farm animal or a wild animal that is about the size of a sheep. Goats have horns, and hairs on their chin which resemble a beard.
+                     <ptr type="bibliography" target="goatDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="wool">
+               <form>
+                  <orth>Wool</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Wool is the hair that grows on sheep and on some other animals, often used to make things like clothes, blankets, and carpets.
+                     <ptr type="bibliography" target="woolDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="hair">
+               <form>
+                  <orth>Hair</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Hair is the threads that grown on your head, or cover the body of an animal such as a dog, or make up a horse's mane and tail.
+                     <ptr type="bibliography" target="hairDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="duck">
+               <form>
+                  <orth>XXX</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A duck is a common water bird with short legs, a short neck, and a large flat beak.
+                     <ptr type="bibliography" target="duckDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="nest">
+               <form>
+                  <orth>Nest</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A bird or other creature's nest is the home that it makes to settle down and lay its eggs in.
+                      <ptr type="bibliography" target="nestDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="corn">
+               <form>
+                  <orth>Corn</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Corn is a tall plant which produces long vegetables covered with yellow seeds. It can also be used to refer to the yellow seeds.
+                     <ptr type="bibliography" target="cornDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="doll">
+               <form>
+                  <orth>Doll</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A doll is a child's toy which looks like a small person or baby.
+                     <ptr type="bibliography" target="dollDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="face">
+               <form>
+                  <orth>Face</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Your face is the front part of your head from your chin to the top of your forehead, where your mouth, eyes, nose, and other features are.
+                     <ptr type="bibliography" target="faceDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="coat">
+               <form>
+                  <orth>Coat</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A coat is a piece of clothing with long sleeves which you wear over your other clothes when you go outside.
+                     <ptr type="bibliography" target="coatDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="blue">
+               <form>
+                  <orth>Blue</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Something that is blue is the color of the sky on a sunny day or the ocean.
+                     <ptr type="bibliography" target="blueDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="silk">
+               <form>
+                  <orth>Silk</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Silk is a type of smooth fine cloth.
+                     <ptr type="bibliography" target="silkDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="hat">
+               <form>
+                  <orth>Hat</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A hat is a head covering, often with a brim around it, which is usually worn outdoors to give protection from the weather.
+                     <ptr type="bibliography" target="hatDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="cap">
+               <form>
+                  <orth>Cap</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A close-fitting covering for the head, usually of soft supple material.
+                     <ptr type="bibliography" target="capDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="neck">
+               <form>
+                  <orth>Neck</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Your neck is the part of your body which joins your head to the rest of your body.
+                     <ptr type="bibliography" target="neckDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="foot">
+               <form>
+                  <orth>Foot</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Your feet are the parts of your body that are at the ends of your legs, and that you stand on. You have a left foot and a right foot.
+                     <ptr type="bibliography" target="footDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="shoe">
+               <form>
+                  <orth>Shoe</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Shoes are objects which you wear on your feet. They cover most of your foot and you wear them over socks or stockings.
+                     <ptr type="bibliography" target="shoeDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="knot">
+               <form>
+                  <orth>Knot</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>If you tie a knot in a piece of string, rope, cloth, or other material, you pass one end or part of it through a loop and pull it tight.
+                     <ptr type="bibliography" target="knotDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="sew">
+               <form>
+                  <orth>Sew</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>When you sew something such as clothes, you make them or repair them by joining pieces of cloth together by passing thread through them with a needle.
+                     <ptr type="bibliography" target="sewDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="book">
+               <form>
+                  <orth>Book</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A book is a number of pieces of paper, usually with words printed on them, which are fastened together and fixed inside a cover of stronger paper or cardboard. Books contain information, stories, or poetry, for example.
+                     <ptr type="bibliography" target="bookDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="tree">
+               <form>
+                  <orth>Tree</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A tree is a tall plant that has a hard trunk, branches, and leaves.
+                     <ptr type="bibliography" target="treeDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="pin">
+               <form>
+                  <orth>Pin</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Pins are very small thin pointed pieces of metal. They are used in sewing to fasten pieces of material or hold them in a certain way.
+                     <ptr type="bibliography" target="pinDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="sash">
+               <form>
+                  <orth>Sash</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A sash is a long piece of cloth which people wear around their waist or over one shoulder, especially with formal or official clothes.
+                     <ptr type="bibliography" target="sashDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="hug">
+               <form>
+                  <orth>Hug</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>When you hug someone, you put your arms around them and hold them tightly, for example because you like them or are pleased to see them.
+                     <ptr type="bibliography" target="hugDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="box">
+               <form>
+                  <orth>Box</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A box is a square or rectangular container with hard or stiff sides. Boxes often have lids.
+                     <ptr type="bibliography" target="boxDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="lock">
+               <form>
+                  <orth>Lock</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>The lock on something such as a door or a drawer is the device which is used to keep it shut and prevent other people from opening it. Locks are opened with a key.
+                     <ptr type="bibliography" target="lockDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="ball">
+               <form>
+                  <orth>Ball</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A ball is a round or oval object that is used in games such as tennis, baseball, football, basketball, and soccer.
+                     <ptr type="bibliography" target="ballDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="wish">
+               <form>
+                  <orth>Wish</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A wish is a desire or strong feeling that you want to have something or do something. If you wish for something, you want it to happen.
+                     <ptr type="bibliography" target="wishDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="tear">
+               <form>
+                  <orth>Tear</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>If you tear paper, cloth, or another material, you pull it into two pieces or you pull it so that a hole appears in it.
+                     <ptr type="bibliography" target="tearDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="hand">
+               <form>
+                  <orth>Hand</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Your hands are the parts of your body at the end of your arms. Each hand has four fingers and a thumb.
+                     <ptr type="bibliography" target="handDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="bird">
+               <form>
+                  <orth>Bird</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A bird is a creature with feathers and wings. Female birds lay eggs. Most birds can fly.
+                     <ptr type="bibliography" target="birdDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="cage">
+               <form>
+                  <orth>Cage</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A cage is a structure of wire or metal bars in which birds or animals are kept.
+                     <ptr type="bibliography" target="cageDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="rose">
+               <form>
+                  <orth>Rose</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A rose is a flower, often with a pleasant smell, which grows on a bush with stems that have sharp points called thorns on them.
+                     <ptr type="bibliography" target="roseDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="bell">
+               <form>
+                  <orth>Bell</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A bell is a metal object shaped like a cup that makes a ringing sound and is used to give a signal or to attract people's attention.
+                     <ptr type="bibliography" target="bellDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="door">
+               <form>
+                  <orth>Door</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A door is a piece of wood, glass, or metal, which is moved to open and close the entrance to a building, room, closet, or vehicle.
+                     <ptr type="bibliography" target="doorDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="rooster">
+               <form>
+                  <orth>Rooster</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A rooster is an adult male chicken. In British English, a rooster can also be called a cock.
+                     <ptr type="bibliography" target="roosterDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="horse">
+               <form>
+                  <orth>Horse</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>XXXA horse is a large animal which people can ride. Some horses are used for pulling plows and carts.
+                     <ptr type="bibliography" target="horseDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="oats">
+               <form>
+                  <orth>Oats</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Oats are a cereal crop or its grains, used for making cookies or a food called oatmeal, or for feeding animals.
+                     <ptr type="bibliography" target="oatsDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="hay">
+               <form>
+                  <orth>Hay</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Hay is grass which has been cut and dried so that it can be used to feed animals.
+                     <ptr type="bibliography" target="hayDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="straw">
+               <form>
+                  <orth>Straw</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Straw consists of the dried, yellowish stalks from crops such as wheat or barley, often used for animal food or bedding.
+                     <ptr type="bibliography" target="strawDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="head">
+               <form>
+                  <orth>Head</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Your head is the top part of your body, which has your eyes, mouth, nose, and brain in it.
+                     <ptr type="bibliography" target="headDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="road">
+               <form>
+                  <orth>Road</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A road is a long piece of hard ground that is built between two places so that people can travel easily from one place to the other.
+                     <ptr type="bibliography" target="roadDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="knee">
+               <form>
+                  <orth>Knee</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Your knee is the place where your leg bends.
+                     <ptr type="bibliography" target="kneeDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="back">
+               <form>
+                  <orth>Back</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A person's or animal's back is the part of their body between their head and their legs that is on the opposite side to their chest and stomach.
+                     <ptr type="bibliography" target="backDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="night">
+               <form>
+                  <orth>Night</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>The night is the part of each day when the sun has set and it is dark outside, especially the time when people are sleeping.
+                     <ptr type="bibliography" target="nightDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="day">
+               <form>
+                  <orth>Day</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Day is the part of each day when it is light outside, usually when you are up and doing things.
+                     <ptr type="bibliography" target="dayDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="mind">
+               <form>
+                  <orth>Mind</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>You refer to someone's mind when talking about their thoughts or brain.
+                     <ptr type="bibliography" target="mindDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="toy">
+               <form>
+                  <orth>Toy</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A toy is an object that children play with, for example, a doll or a model car.
+                     <ptr type="bibliography" target="toyDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="field">
+               <form>
+                  <orth>Field</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A field is an area of grass, for example, in a park or on a farm. A field is also an area of land on which a crop is grown.
+                     <ptr type="bibliography" target="fieldDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="stalk">
+               <form>
+                  <orth>Stalk</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>The stalk of a flower, leaf, or fruit is the thin part that joins it to the plant or tree.
+                     <ptr type="bibliography" target="stalkDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="thread">
+               <form>
+                  <orth>Thread</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A thread is a long very thin piece of a material such as cotton, nylon, or silk, especially one that is used in sewing.
+                     <ptr type="bibliography" target="threadDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="bush">
+               <form>
+                  <orth>Bush</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A bush is a large plant which is smaller than a tree and has a lot of branches.
+                     <ptr type="bibliography" target="bushDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="fruit">
+               <form>
+                  <orth>Fruit</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A fruit is something which grows on a tree or bush and which contains seeds or a pit covered by a substance that you can eat.
+                     <ptr type="bibliography" target="fruitDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="spring">
+               <form>
+                  <orth>Spring</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Spring is the season between winter and summer when the weather becomes warmer and plants start to grow again.
+                     <ptr type="bibliography" target="springDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="pea">
+               <form>
+                  <orth>Pea</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Peas are round green seeds that grow in long thin cases and are eaten as a vegetable.
+                     <ptr type="bibliography" target="peaDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="yellow">
+               <form>
+                  <orth>Yellow</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Something that is yellow is the color of lemons, butter, or the middle part of an egg.
+                     <ptr type="bibliography" target="yellowDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="write">
+               <form>
+                  <orth>Write</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>When you write, you use something such as a pen or pencil to produce words, letters, or numbers.
+                     <ptr type="bibliography" target="writeDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="plant">
+               <form>
+                  <orth>Plant</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A plant is a living thing that grows in the earth and has a stem, leaves, and roots. Plants can also be kept in pots or vases.
+                     <ptr type="bibliography" target="plantDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="heart">
+               <form>
+                  <orth>Heart</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Your heart is the organ in your chest that pumps the blood around your body. You can also refer to someone's heart when you are talking about their deep feelings and beliefs.
+                     <ptr type="bibliography" target="heartDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="clothes">
+               <form>
+                  <orth>Clothes</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Clothes are the things that people wear, such as shirts, coats, pants, and dresses.
+                     <ptr type="bibliography" target="clothesDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="chest">
+               <form>
+                  <orth>Chest</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A chest is a large, heavy box used for storing things.
+                     <ptr type="bibliography" target="chestDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="dress">
+               <form>
+                  <orth>Dress</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A garment usually consisting of a one-piece bodice and skirt.
+                     <ptr type="bibliography" target="#Merriam-WebsterDictionary"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="cloak">
+               <form>
+                  <orth>Cloak</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A cloak is a long, loose, sleeveless piece of clothing which people used to wear over their other clothes when they went out.
+                     <ptr type="bibliography" target="cloakDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="green">
+               <form>
+                  <orth>Green</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Green is the color of grass or leaves.
+                     <ptr type="bibliography" target="greenDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="brown">
+               <form>
+                  <orth>Brown</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Something that is brown is the color of dirt or of wood.
+                     <ptr type="bibliography" target="brownDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="pink">
+               <form>
+                  <orth>Pink</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Pink is the color between red and white, such as the color of a pig.
+                     <ptr type="bibliography" target="pinkDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="coach">
+               <form>
+                  <orth>Coach</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>A coach is an enclosed vehicle with four wheels which is pulled by horses, and in which people used to travel.
+                     <ptr type="bibliography" target="coachDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="rags">
+               <form>
+                  <orth>Rags</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Ragged or tattered clothing.
+                     <ptr type="bibliography" target="ragsDefinition"/></def>
+               </sense>
+            </entry>
+            <entry type="vocabularyWord" xml:id="stairs">
+               <form>
+                  <orth>Stairs</orth>
+               </form>
+               <sense>
+                  <figure type="vocabularyImage">
+                     <graphic url="xxx"></graphic>
+                     <figDesc>xxx</figDesc>
+                  </figure>
+                  <def>Stairs are a set of steps inside a building which go from one floor to another.
+                     <ptr type="bibliography" target="stairsDefinition"/></def>
+               </sense>
+            </entry>
+         </div>
+         
+         
+         
+         <div type="endnotes">
+            <note xml:id="n1">
+               <p>XXX
+                 <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n2">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n3">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n4">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n5">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n6">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n7">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n8">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n9">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n10">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n11">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n12">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n13">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n14">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+            <note xml:id="n15">
+               <p>XXX
+                  <ptr type="bibliography" target="XXX"/></p>
+            </note>
+         </div>
+         
+        
+        
+        
+         <listBibl>
+            <bibl xml:id="CollinsDictionary" type="webpage">
+               <publisher rend="italics">Collins Dictionary</publisher>
+               <ref target="https://www.collinsdictionary.com/us/dictionary/english">https://www.collinsdictionary.com/us/dictionary/english</ref>
+            </bibl>
+            <bibl xml:id="Merriam-WebsterDictionary" type="webpage">
+               <publisher rend="italics">Merriam-Webster</publisher>
+               <ref target="https://www.merriam-webster.com/">https://www.merriam-webster.com/</ref>
+            </bibl>
+            
+         </listBibl>
+      </back>
+   </text>
+</TEI>
