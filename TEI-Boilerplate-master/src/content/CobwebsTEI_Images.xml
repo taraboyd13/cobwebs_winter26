@@ -51,7 +51,7 @@
       <front>
          <div type="frontispiece">
             <figure>
-               <graphic url="cobwebs_winter26/TEI-Boilerplate-master/src/images/Frontispiece.jpg"></graphic>
+               <graphic url="cobwebs_winter26/TEI-Boilerplate-master/src/content/Frontispiece.jpg"></graphic>
                <head rend="caps">The Doll.</head>
             </figure>
          </div>
