@@ -266,7 +266,7 @@ author {
 }
 titleStmt > author {
   display: block;
-  font-family: Arvo, sans-serif;
+  font-family:"Gentium Book Basic", Cochin, Georgia, Serif;
   font-weight: normal;
   margin-bottom: 1em;
 }
@@ -676,7 +676,7 @@ handShift {
 /* Need head with TEI parent to distinguish from HTML head */
 TEI head {
   display: block;
-  font-family: Arvo, sans-serif;
+  font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-weight: normal;
 }
 body > head {
@@ -706,7 +706,7 @@ div > div > div > div > div > div head {
 figure > head {
   display: block;
   margin: 1.5em auto 1.5em auto;
-  padding: .5em 1.5em 1.5em 1.5em;
+  padding: 1.5em 1.5em 1.5em 1.5em;
   border: 1px solid black;
   border-radius: 15px;
   width: 325px;
@@ -1059,7 +1059,7 @@ normalization {
   /* Empty Rule Set */
 }
 note {
-  display: list-item;
+  display: block;
   margin: 1.5em auto 1.5em auto;
   padding: .5em 1.5em 1.5em 1.5em;
   border: 1px solid black;
@@ -1726,10 +1726,10 @@ title[level=m] {
 /* as a hack to solve a JavaScript/jQuery issue. */
 titleStmt > tei-title {
   display: block;
-  font-family: Arvo, sans-serif;
+  font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-weight: normal;
   font-weight: bold !important;
-  font-size: 300%;
+  font-size: 200%;
 }
 titleStmt > editor:before {
   content: "Edited by ";
@@ -1953,7 +1953,7 @@ div.facsImage img:first-child {
   margin-top: 0;
 }
 .head-font {
-  font-family: Arvo, sans-serif;
+  font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-weight: normal;
 }
 
