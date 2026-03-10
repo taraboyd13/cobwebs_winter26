@@ -12,12 +12,10 @@ div [type="epigraph"] {
 #epigraph_quote {
   font-size: 16pt;
   text-align: right;
-  display: flex;
-  align-items: right;
 }
   
 div [type="contents"] {
   margin-top: 3em;
-  font-sie: 18pt;
+  font-size: 18pt;
 }
 
