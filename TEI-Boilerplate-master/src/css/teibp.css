@@ -98,7 +98,7 @@
   margin-right: 4em;
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
-  font-size: 14pt;
+  font-size: 24pt;
   background-color: #EBEBEB;
   color: #292929;
   width: 33em;
@@ -1557,7 +1557,8 @@ spanGrp {
 }
 speaker {
   font-weight: bold;
-  margin-right: 0;
+  display: flex;
+  justify-context: center;
 }
 specDesc {
   /* NOT SURE, look back on */
