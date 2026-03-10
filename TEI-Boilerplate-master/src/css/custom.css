@@ -1,7 +1,5 @@
 div [type="epigraph"] {
   margin-top: 3em;
-  padding: 1em;
-  border: none;
 }
 
 #epigraph {
@@ -13,10 +11,13 @@ div [type="epigraph"] {
 
 #epigraph_quote {
   font-size: 16pt;
-  text-align: left;
+  text-align: right;
   display: flex;
-  align-items: left;
+  align-items: right;
 }
   
-    
+div {type="contents'} {
+  margin-top: 3em;
+  font-sie: 18pt;
+}
 
