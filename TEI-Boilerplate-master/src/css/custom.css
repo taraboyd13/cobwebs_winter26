@@ -1,20 +1,22 @@
 div [type="epigraph"] {
   margin-top: 3em;
-  border: 1px solid black;
   padding: 1em;
 }
 
 #epigraph {
-  font-size: 20pt;
+  font-size: 18pt;
   text-align: center;
   display: flex;
-  align-items: center
+  align-items: center;
   height: 200px;
 }
 
 #epigraph_quote {
-  font-size: 18pt;
+  font-size: 16pt;
   text-align: left
+  display: flex;
+  align-items: left;
+  height:200px;
 }
   
     
