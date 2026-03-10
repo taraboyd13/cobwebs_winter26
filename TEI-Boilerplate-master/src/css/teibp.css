@@ -269,6 +269,7 @@ titleStmt > author {
   font-family:"Gentium Book Basic", Cochin, Georgia, Serif;
   font-weight: normal;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 authority {
   /* Empty Rule Set */
