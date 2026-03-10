@@ -1558,7 +1558,7 @@ spanGrp {
 speaker {
   font-weight: bold;
   display: flex;
-  justify-context: center;
+  text-align: center;
 }
 specDesc {
   /* NOT SURE, look back on */
@@ -1728,7 +1728,7 @@ titleStmt > tei-title {
   font-family: Arvo, sans-serif;
   font-weight: normal;
   font-weight: bold !important;
-  font-size: 150%;
+  font-size: 300%;
 }
 titleStmt > editor:before {
   content: "Edited by ";
