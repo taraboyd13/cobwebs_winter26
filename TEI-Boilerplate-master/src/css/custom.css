@@ -16,7 +16,7 @@ div [type="epigraph"] {
   align-items: right;
 }
   
-div {type="contents'} {
+div [type="contents"] {
   margin-top: 3em;
   font-sie: 18pt;
 }
