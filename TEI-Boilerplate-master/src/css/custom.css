@@ -1,2 +1,9 @@
-/* Place project-specific CSS here */
+div [type="epigraph"] {
+  margin-top: 3em;
+  border: 1px solid black;
+  padding: 1em;
+  text-align: center;
+}
+  
+    
 
