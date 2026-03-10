@@ -19,3 +19,14 @@ div [type="contents"] {
   font-size: 18pt;
 }
 
+/* Removes default styling and adds a line */
+milestone[rend="horizLine"] {
+    display: block;
+    width: 85%;
+    height: 1px;
+    border: none;
+    border-top: 1px solid black;
+    margin: 1em 0;
+}
+
+
