@@ -99,7 +99,7 @@
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 24pt;
-  background-color: #EEDAC5;
+  background-color: #faf0e6;
   color: #111516;
   width: 60%;
 }
@@ -871,6 +871,7 @@ layoutDesc {
 }
 lb {
   /* Empty Rule Set */
+  
 }
 lb:after {
   content: '\a';
@@ -1137,9 +1138,10 @@ origin {
 /* p */
 p {
   display: block;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
   text-align: justify;
+  line-height: 1.5;
 }
 *[rendition~="#center"] p {
   text-align: center;
@@ -1838,7 +1840,7 @@ html > body {
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 20pt;
-   background-color: #EBEBEB;
+   background-color: #faf0e6;
   color: #292929;
 }
 
@@ -1850,7 +1852,7 @@ html {
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 14pt;
-  background-color: #EBEBEB;
+  background-color: #faf0e6;
   color: #292929;
   width: 33em;*/
 }
@@ -1859,7 +1861,7 @@ img {
 }
 
 img.image {
-  width: 45%;
+  width: 55%;
 }
 
 footer {
