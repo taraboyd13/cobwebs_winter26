@@ -35,31 +35,6 @@ milestone[rend="horizLine"] {
   font-weight: bold !important;
 }
 
-/* Normal state */
-a:link {
-  color: blue;
-  text-decoration: none;
-  transition: all 0.3s ease; /* Smooth transition */
-}
-
-a:visited {
-  color: red;
-  text-decoration: none;
-}
-
-/* Hover state */
-a:hover {
-  color: red;
-  text-decoration: none;
-  background-color: none;
-  cursor: pointer;
-}
-
-/*
-Source - https://stackoverflow.com/a/24993002
-Posted by Naveen Web Solutions
-Retrieved 2026-03-11, License - CC BY-SA 3.0
-*/
 
 .hover_img a { position:relative; }
 .hover_img a span { position:absolute; display:none; z-index:99; }
