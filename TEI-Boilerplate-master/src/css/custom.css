@@ -35,4 +35,19 @@ milestone[rend="horizLine"] {
   font-weight: bold !important;
 }
 
+/* Normal state */
+.tei-link {
+  color: blue;
+  text-decoration: underline;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Hover state */
+.tei-link:hover {
+  color: blue;
+  text-decoration: none;
+  background-color: white;
+  cursor: pointer;
+}
+
 
