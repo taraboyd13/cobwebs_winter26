@@ -94,14 +94,14 @@
   font-family: Courier,monospace;
 }
 .page-setup {
-  margin-left: 2em;
-  margin-right: 4em;
+  margin-left: 3em;
+  margin-right: 3em;
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 24pt;
-  background-color: #EBEBEB;
-  color: #292929;
-  width: 33em;
+  background-color: #EEDAC5;
+  color: #111516;
+  width: 60%;
 }
 .table-border {
   /*
@@ -1137,8 +1137,8 @@ origin {
 /* p */
 p {
   display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   text-align: justify;
 }
 *[rendition~="#center"] p {
@@ -1859,7 +1859,7 @@ img {
 }
 
 img.image {
-  width: 60%;
+  width: 45%;
 }
 
 footer {
