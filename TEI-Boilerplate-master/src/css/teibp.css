@@ -1872,10 +1872,13 @@ footer {
 }
 
 a:link,
-a:visited,
+a:visited {
+  color: #8D021F;
+  text-decoration: none;
+}
 a:hover {
   color: #123456;
-  text-decoration: underline;
+  text-decoration: none;
  }
 a:active {
   color: #123456;
