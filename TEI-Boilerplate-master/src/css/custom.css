@@ -37,21 +37,21 @@ milestone[rend="horizLine"] {
 
 /* Normal state */
 a:link {
-  color: blue;
-  text-decoration: underline;
+  color: red;
+  text-decoration: none;
   transition: all 0.3s ease; /* Smooth transition */
 }
 
 a:visited {
-  color: brown;
-  text-decoration: underline;
+  color: red;
+  text-decoration: none;
 }
 
 /* Hover state */
 a:hover {
-  color: blue;
+  color: red;
   text-decoration: none;
-  background-color: white;
+  background-color: none;
   cursor: pointer;
 }
 
