@@ -1871,18 +1871,21 @@ footer {
   font-size: 12pt;
 }
 
-a:link,
+a:link {
+  color: #123456;
+  text-decoration: none;
+}
 a:visited {
   color: #8D021F;
   text-decoration: none;
 }
 a:hover {
-  color: #123456;
-  text-decoration: none;
+  color: #8D021F;
+  text-decoration: underline;
  }
 a:active {
-  color: #123456;
-  text-decoration: none;
+  color: #8D021F;
+  text-decoration: underline;
 }
 
 #teibpToolbox {
