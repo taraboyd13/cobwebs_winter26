@@ -1870,16 +1870,18 @@ footer {
   padding-top: .5em;
   font-size: 12pt;
 }
+
 a:link,
 a:visited,
+a:hover {
+  color: #123456;
+  text-decoration: underline;
+ }
 a:active {
-  color: #5f0000;
+  color: #123456;
   text-decoration: none;
 }
-a:hover {
-  color: #5f0000;
-  text-decoration: underline;
-}
+
 #teibpToolbox {
   display: none;
   left: 56em;
