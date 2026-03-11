@@ -99,7 +99,7 @@
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 24pt;
-  background-color: #F2F3F4;
+  background-color: #d2e4ff;
   color: #111516;
   width: 60%;
 }
@@ -1110,6 +1110,19 @@ note[place="tooltip"]:hover::after {
     opacity: 1;
 }
 
+note[place="tooltip"] {
+    visibility: hidden; 
+    position: absolute; 
+    
+}
+
+note:hover[place="tooltip"] {
+    visibility: visible; 
+}
+
+
+
+
 notesStmt {
   /* do we want to box each individual <note> if they're in a <notesStmt>? */
   display: none;
@@ -1506,6 +1519,7 @@ sense {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
+  align-text: center;
 }
 series {
   /* treat same as seriesstmt? */
@@ -1872,7 +1886,7 @@ html > body {
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 20pt;
-   background-color: #F2F3F4;
+   background-color: ##d2e4ff;
   color: #292929;
 }
 
@@ -1884,7 +1898,7 @@ html {
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 14pt;
-  background-color: #F2F3F4;
+  background-color: #d2e4ff;
   color: #292929;
   width: 33em;*/
 }
@@ -1904,7 +1918,7 @@ footer {
 }
 
 a:link {
-  color: #123456;
+  color: #00A86B;
   text-decoration: none;
 }
 a:visited {
