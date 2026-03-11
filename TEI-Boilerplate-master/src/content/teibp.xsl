@@ -561,5 +561,13 @@
          </xsl:copy>
        </xsl:template>
 
+	<!-- XSLT template -->
+<xsl:template match="tei:ref[@target]">
+  <a href="{@target}" class="tei-link">
+    <xsl:apply-templates/>
+  </a>
+</xsl:template>
+
+
        
      </xsl:stylesheet>
