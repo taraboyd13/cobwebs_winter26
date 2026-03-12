@@ -1187,8 +1187,10 @@ p {
   margin-bottom: 1.75em;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  width: 70%;
+  text-align: justify; 
   line-height: 2;
+  text-indent: 40px;
 }
 
 *[rendition~="#center"] p {
