@@ -35,12 +35,18 @@ milestone[rend="horizLine"] {
   font-weight: bold !important;
 }
 
-speaker {
-  font-weight: bold;
-  margin: 1em 1em;
+head[type="title"] {
+  margin-top: 3em;
+  font size: 24pt;
   text-align: center;
 }
-  
+
+head[type="sub"] {
+  font-size: 16pt;
+  text-align: center;
+}
+
+
 
 
 
