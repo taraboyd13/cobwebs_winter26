@@ -1186,7 +1186,9 @@ p {
   margin-top: 1.75em;
   margin-bottom: 1.75em;
   margin-left: auto;
-  margin-right: autho;
+  margin-right: auto;
+  text-align: justify;
+  line-height: 2;
 }
 
 *[rendition~="#center"] p {
