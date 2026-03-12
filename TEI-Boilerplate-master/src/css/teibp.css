@@ -1182,11 +1182,10 @@ origin {
 }
 /* p */
 p {
-  display: flex;
-  justify-context: center;
-  align-items: center;
-  height: 100vh;
-  line-height: 2;
+  display: block;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+  text-align: center;
 }
 
 *[rendition~="#center"] p {
@@ -1589,11 +1588,6 @@ sourceDesc {
   display: none;
 }
 sp {
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-style: caps;
 }
 space:before {
   font-weight: bold;
