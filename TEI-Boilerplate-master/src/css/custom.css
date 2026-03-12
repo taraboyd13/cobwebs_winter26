@@ -46,7 +46,16 @@ head[type="sub"] {
   text-align: center;
 }
 
+speaker {
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
 
+p { 
+  margin: auto;
+  text-align: left
+}
 
 
 
