@@ -1186,6 +1186,7 @@ p {
   margin-top: 1.3em;
   margin-bottom: 1.3em;
   text-align: center;
+  
   line-height: 2;
 }
 *[rendition~="#center"] p {
@@ -1608,7 +1609,6 @@ speaker {
   font-weight: bold;
   font-size: 24;
   text-align: center;
-  margin: 33em;
 }
 specDesc {
   /* NOT SURE, look back on */
