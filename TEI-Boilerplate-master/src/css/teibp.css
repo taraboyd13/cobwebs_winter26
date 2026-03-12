@@ -1607,8 +1607,8 @@ spanGrp {
 speaker {
   font-weight: bold;
   font-size: 24;
-  display: flex;
   text-align: center;
+  margin: 7em;
 }
 specDesc {
   /* NOT SURE, look back on */
