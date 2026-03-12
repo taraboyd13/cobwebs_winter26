@@ -101,7 +101,7 @@
   font-size: 24pt;
   background-color: #d2e4ff;
   color: #111516;
-  width: 60%;
+  width: 70%;
 }
 .table-border {
   /*
@@ -1183,9 +1183,9 @@ origin {
 /* p */
 p {
   display: block;
-  margin-top: 1.75em;
-  margin-bottom: 1.75em;
-  text-align: justify;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+  text-align: center;
   line-height: 2;
 }
 *[rendition~="#center"] p {
@@ -1519,7 +1519,7 @@ sense {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
-  align-text: center;
+  text-align: center;
 }
 series {
   /* treat same as seriesstmt? */
@@ -1900,7 +1900,7 @@ html {
   font-size: 14pt;
   background-color: #d2e4ff;
   color: #292929;
-  width: 33em;*/
+  width: 3em;*/
 }
 img {
   border: 1px solid #AAA;
