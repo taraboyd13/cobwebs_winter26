@@ -1588,7 +1588,9 @@ sourceDesc {
   display: none;
 }
 sp {
+  /* Empty Set Rule */
 }
+
 space:before {
   font-weight: bold;
   content: "";
