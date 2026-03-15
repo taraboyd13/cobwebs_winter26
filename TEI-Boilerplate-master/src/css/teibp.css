@@ -1782,7 +1782,7 @@ titleStmt > tei-title {
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-weight: normal;
   font-weight: bold !important;
-  font-size: 150%;
+  font-size: 175%;
 }
 titleStmt > editor:before {
   content: "Edited by ";
@@ -1889,7 +1889,7 @@ html > body {
   width: 70%;
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
-  font-size: 18pt;
+  font-size: 20pt;
    background-color: #DFE6DA;
   color: #292929;
 }
