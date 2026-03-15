@@ -59,6 +59,16 @@ sp speaker {
   font-weight: bold;
 }
 
+form {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    unicode-bidi: isolate;
+    text-align: center;
+    font-weight: bold;
+}
+  
+
 
 
 
