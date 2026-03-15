@@ -1884,11 +1884,11 @@ zone {
 html > body {
   margin: auto;
   padding: 0;
-  width: 60%;
+  width: 70%;
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
-  font-size: 20pt;
-   background-color: ##d2e4ff;
+  font-size: 24pt;
+   background-color: #d2e4ff;
   color: #292929;
 }
 
