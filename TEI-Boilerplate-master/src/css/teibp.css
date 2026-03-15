@@ -2018,3 +2018,12 @@ div.facsImage img:first-child {
   font-weight: normal;
 }
 
+form {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    unicode-bidi: isolate;
+    text-align: center;
+    font-style: bold:
+}
+
