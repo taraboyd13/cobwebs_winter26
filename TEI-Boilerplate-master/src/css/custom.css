@@ -70,6 +70,10 @@ form {
 listBibl {
   font-size: 16pt;
 }
+
+#frontispiece {
+  width: 65%;
+}
   
 
 
