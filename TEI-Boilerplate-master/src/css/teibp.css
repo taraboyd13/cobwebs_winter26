@@ -291,9 +291,10 @@ publicationStmt > availability[status]:before {
 back {
   display: block;
 }
-bibl {
-  /* Empty Rule Set */
+listBibl {
+  font-size: 16pt;
 }
+
 bibl[rend~="block"],
 bibl[rendition~="#block"] {
   display: block;
@@ -1911,7 +1912,7 @@ img {
 }
 
 img.image {
-  width: 50%;
+  width: 55%;
 }
 
 footer {
